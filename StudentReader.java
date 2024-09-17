@@ -6,6 +6,7 @@
             students.add("Alice");
             students.add("Bob");
             students.add("Charlie");
+            students.add("Abdul Majeed");
             return students;
         }
  }
