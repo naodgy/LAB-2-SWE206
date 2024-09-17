@@ -13,18 +13,12 @@ public class NewApp {
 
 
 
-         List<String> students = getStudentNames();
+        List<String> students = getStudentNames();
         for (String student : students) {
             System.out.println(student);
     }
 
 
-    public static List<String> getStudentNames() {
-        // Creating a list with three fixed student names
-        List<String> students = new ArrayList<>();
-        students.add("Alice");
-        students.add("Bob");
-        students.add("Charlie");
-        return students;
-    }
+   
+}
 }
